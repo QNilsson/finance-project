@@ -26,7 +26,7 @@ p {
 div .topnav {
 	overflow: hidden;
 	background-color: var(--primary-color);
-	opacity: 60%;
+	filter:brightness(1.2);
 	text-align: center;
 	text-decoration: none;
 	padding: 10px 0px;
@@ -52,7 +52,7 @@ div .topnav li a {
 }
 
 div .topnav li a:hover {
-	color: gray;
+	color: var(--secondary-color);
 }
 
 .topnav li a.active {
@@ -163,6 +163,7 @@ button.get-started:hover{
 	width: 33%;
 	padding: 0 43 0 43;
 	align-items: center;
+	
 }
 
 .service-image {
@@ -195,7 +196,7 @@ button.read-more:hover{
 
 div.team-content{
 	background-color:var(--primary-color);
-	filter:brightness(1.2)
+	filter:brightness(1.2);
 }
 
 .team-image{
